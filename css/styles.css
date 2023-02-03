@@ -668,7 +668,7 @@ transition: background-color var(--transition), box-shadow var(--transition);}
 
 .jiji {position: absolute;
 top: 8px;
-right: 17px;
+right: 24px;
 fill: var(--main-white-color);
 }
 
