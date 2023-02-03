@@ -425,6 +425,8 @@ transition: background-color var(--transition);}
 .footer-soc-link:is(:hover,:focus) {
     background-color: var(--second-hover-bgc);}
 
+
+    .footer-subscribe {margin-left: 80px;}
 /* Послуги */
 
 .services-list {display: flex;
@@ -618,7 +620,7 @@ justify-content: center;
 
 /* .check-label {min-width: 338px;} */
 
-.button-send {
+.button-send {display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: var(--typical-line-height);
