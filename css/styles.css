@@ -608,7 +608,7 @@ justify-content: center;
 }
 
 
-
+.check-button {color: var(--accent-color);}
 
 .modal-check:checked + .check-text span {
     background-color: var(--hover-bgc);
@@ -626,18 +626,18 @@ justify-content: center;
     color: var(--main-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 119px;
     border: 1px solid transparent;
     border-radius: 4px;
 padding: 16px 32px;
 min-width: 169px;
-transition: background-color var(--transition);
+transition: background-color var(--transition), box-shadow var(--transition);
 margin-top: 16px;}
 
-.hero-button:hover,
-.hero-button:focus,
-.hero-button:active{background-color: var(--hover-bgc)}
+.button-send:is(:hover, :focus, :active) {
+background-color: var(--hover-bgc);
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);}
+
 
 
 .modal-close {width: 24px;
