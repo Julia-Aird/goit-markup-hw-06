@@ -590,7 +590,7 @@ margin-bottom: 14px;
 .check-text span {
     display: flex;
     align-items: center;
-    justify-content: center;
+justify-content: center;
     width: 16px;
     height: 16px;
     border: 1.25px solid var(--second-text-color);
@@ -598,8 +598,17 @@ margin-bottom: 14px;
     margin-right: 8px;
     transition: fill var(--transition), background-color var(--transition);
     fill: transparent;
+}
+
+.check-label {font-size: 12px;
+    height: 16px;
+        line-height: 1.33;
+    letter-spacing: 0.04em;
 
 }
+
+
+
 
 .modal-check:checked + .check-text span {
     background-color: var(--hover-bgc);
