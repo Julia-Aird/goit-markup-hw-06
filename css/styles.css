@@ -594,7 +594,7 @@ margin-bottom: 14px;
 .check-text span {
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border: 1.25px solid var(--second-text-color);
@@ -666,9 +666,11 @@ max-width: 165px;
 height: 40px;
 transition: background-color var(--transition), box-shadow var(--transition);}
 
-.pipi {}
+.button-subscribe:is(:hover, :focus, :active) {
+background-color: var(--hover-bgc);
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);}
 
-.jiji {position: absolute;
+.subscribe-icon {position: absolute;
 top: 8px;
 right: 24px;
 fill: var(--main-white-color);
@@ -701,9 +703,7 @@ padding-bottom: 8px;
 
 
 
-.button-subscribe:is(:hover, :focus, :active) {
-background-color: var(--hover-bgc);
-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);}
+
 
 .online-form {display: flex;}
 
