@@ -610,8 +610,8 @@ margin-bottom: 14px;
     letter-spacing: 0.04em;
 
 }
-
-.modal-check {display: none;}
+/* 
+.modal-check {display: none;} */
 
 .check-button {color: var(--accent-color);}
 
