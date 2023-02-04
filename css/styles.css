@@ -551,7 +551,7 @@ margin-bottom: 14px;
 .modal-field {margin-bottom: 8px;
 }
 
-.modal-field-textarea {margin-bottom: 4px;}
+.modal-field-check {margin-top: 12px;}
 
 .input-wrap {
     position: relative;
@@ -611,6 +611,7 @@ justify-content: center;
 
 }
 
+.modal-check {display: none;}
 
 .check-button {color: var(--accent-color);}
 
